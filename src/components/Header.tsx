@@ -9,7 +9,7 @@ const Header = () => {
     { name: "Home", href: "#home" },
     { name: "Services", href: "#services" },
     { name: "Cyber Workspace", href: "#workspace" },
-    { name: "About", href: "#about" },
+    { name: "Management", href: "#about" },
     { name: "Contact", href: "#contact" },
   ];
 

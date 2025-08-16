@@ -77,11 +77,11 @@ const Footer = () => {
               </div>
               <div>
                 <p className="text-primary-foreground/80">Phone:</p>
-                <p>+234 (0) 123 456 7890</p>
+                <p>070 3960 5097 | 090 2549 0266</p>
               </div>
               <div>
                 <p className="text-primary-foreground/80">Location:</p>
-                <p>Budagreen Cyber Workspace, Nigeria</p>
+                <p>Starcade Shopping Mall No 4, 2nd Floor, Kachina Road, Sabo, Kaduna</p>
               </div>
             </div>
           </div>

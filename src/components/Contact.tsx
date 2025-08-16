@@ -15,14 +15,14 @@ const Contact = () => {
     {
       icon: Phone,
       title: "Call Us",
-      details: "+234 (0) 123 456 7890",
-      subDetails: "+234 (0) 987 654 3210"
+      details: "070 3960 5097",
+      subDetails: "090 2549 0266"
     },
     {
       icon: MapPin,
       title: "Visit Us",
-      details: "Budagreen Cyber Workspace",
-      subDetails: "Nigeria"
+      details: "Starcade Shopping Mall No 4, 2nd Floor",
+      subDetails: "Kachina Road, Sabo, Kaduna"
     },
     {
       icon: Clock,
@@ -124,7 +124,7 @@ const Contact = () => {
               
               <div>
                 <label className="text-sm font-medium text-foreground mb-1 block">Phone Number</label>
-                <Input type="tel" placeholder="+234 (0) 123 456 7890" className="border-border/60" />
+                <Input type="tel" placeholder="070 3960 5097" className="border-border/60" />
               </div>
               
               <div>
