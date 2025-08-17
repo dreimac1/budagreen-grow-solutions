@@ -5,42 +5,42 @@ const Testimonials = () => {
   const testimonials = [
     {
       name: "Aisha Mahmud",
-      location: "Abuja, FCT",
+      location: "Kaduna North, Kaduna State",
       role: "Small Business Owner",
       content: "Budagreen Global has transformed my business operations. Their comprehensive services and professional approach made all the difference. Highly recommended!",
       rating: 5
     },
     {
       name: "Chinedu Okafor",
-      location: "Lagos State",
+      location: "Kaduna South, Kaduna State",
       role: "Tech Entrepreneur", 
       content: "Working with Budagreen Global was a game-changer. Their team's expertise in business development helped us scale beyond our expectations. Excellent service delivery!",
       rating: 5
     },
     {
       name: "Fatima Aliyu",
-      location: "Kano State",
+      location: "Chikun LGA, Kaduna State",
       role: "Import/Export Merchant",
       content: "The professionalism and attention to detail from Budagreen Global is outstanding. They understood our needs and delivered beyond expectations. Truly reliable partners!",
       rating: 5
     },
     {
       name: "Emeka Nwachukwu", 
-      location: "Rivers State",
+      location: "Zaria, Kaduna State",
       role: "Manufacturing Executive",
       content: "Budagreen Global's innovative solutions and strategic guidance have been instrumental in our company's growth. Their team is knowledgeable and trustworthy.",
       rating: 5
     },
     {
       name: "Zainab Ibrahim",
-      location: "Kaduna State", 
+      location: "Kafanchan, Kaduna State", 
       role: "Retail Chain Owner",
       content: "I am impressed with Budagreen Global's commitment to excellence. Their services are top-notch and they always deliver on time. Great experience working with them!",
       rating: 5
     },
     {
       name: "Olumide Adebayo",
-      location: "Oyo State",
+      location: "Sabon Gari, Kaduna State",
       role: "Agribusiness Consultant",
       content: "Budagreen Global exceeded our expectations with their comprehensive business solutions. Their professional approach and results-driven mindset make them stand out.",
       rating: 5
