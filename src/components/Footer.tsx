@@ -1,4 +1,5 @@
 import { Separator } from "@/components/ui/separator";
+import { Facebook, Instagram } from "lucide-react";
 
 const Footer = () => {
   const currentYear = new Date().getFullYear();
@@ -82,6 +83,29 @@ const Footer = () => {
               <div>
                 <p className="text-primary-foreground/80">Location:</p>
                 <p>Starcade Shopping Mall No 4, 2nd Floor, Kachina Road, Sabo, Kaduna</p>
+              </div>
+              <div>
+                <p className="text-primary-foreground/80 mb-2">Follow Us:</p>
+                <div className="flex space-x-3">
+                  <a 
+                    href="https://facebook.com/BudagreenGlobal" 
+                    target="_blank" 
+                    rel="noopener noreferrer"
+                    className="flex items-center space-x-1 text-primary-foreground/80 hover:text-primary-foreground transition-colors"
+                  >
+                    <Facebook size={16} />
+                    <span className="text-xs">Budagreen Global</span>
+                  </a>
+                  <a 
+                    href="https://instagram.com/budagreengloba" 
+                    target="_blank" 
+                    rel="noopener noreferrer"
+                    className="flex items-center space-x-1 text-primary-foreground/80 hover:text-primary-foreground transition-colors"
+                  >
+                    <Instagram size={16} />
+                    <span className="text-xs">@budagreengloba</span>
+                  </a>
+                </div>
               </div>
             </div>
           </div>
