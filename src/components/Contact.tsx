@@ -9,8 +9,8 @@ const Contact = () => {
     {
       icon: Mail,
       title: "Email Us",
-      details: "info@budagreen.com",
-      subDetails: "support@budagreen.com"
+      details: "info@budagreenglobal.com",
+      subDetails: "Support@budagreenglobal.com"
     },
     {
       icon: Phone,

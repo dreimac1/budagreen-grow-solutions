@@ -75,7 +75,7 @@ const Footer = () => {
               <div>
                 <p className="text-primary-foreground/80">Email:</p>
                 <p>info@budagreenglobal.com</p>
-                <p>support@budagreenglobal.com</p>
+                <p>Support@budagreenglobal.com</p>
               </div>
               <div>
                 <p className="text-primary-foreground/80">Phone:</p>
