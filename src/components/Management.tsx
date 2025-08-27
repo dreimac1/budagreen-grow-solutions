@@ -6,7 +6,7 @@ const Management = () => {
     {
       name: "BUJI ELISHA SAMAILA",
       position: "CEO/MD",
-      image: "/lovable-uploads/7ef2ff54-3ad7-4368-9382-2e76216d79a5.png",
+      image: "/lovable-uploads/fdd36e61-20bd-40e4-a9f9-3f3c2156c0fa.png",
       icon: Award,
       description: "Visionary leader driving Budagreen Global's strategic growth and innovation."
     },
