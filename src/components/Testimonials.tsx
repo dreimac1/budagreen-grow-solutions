@@ -34,21 +34,6 @@ const Testimonials = () => {
           ))}
         </div>
 
-        <div className="text-center mt-16 animate-fade-in" style={{ animationDelay: "0.6s" }}>
-          <div className="glass-effect p-8 rounded-xl border border-primary/20 max-w-4xl mx-auto">
-            <h3 className="text-2xl font-bold mb-4 text-gradient">
-              Join Our Growing Family of Satisfied Clients
-            </h3>
-            <p className="text-muted-foreground mb-6">
-              Experience the Budagreen Global difference and see why businesses across Nigeria trust us for their growth and success.
-            </p>
-            <div className="flex flex-wrap justify-center gap-4 text-sm text-muted-foreground">
-              <span className="px-3 py-1 bg-primary/10 rounded-full">✓ Trusted by 500+ Businesses</span>
-              <span className="px-3 py-1 bg-primary/10 rounded-full">✓ 98% Client Satisfaction</span>
-              <span className="px-3 py-1 bg-primary/10 rounded-full">✓ Nigeria-Wide Service</span>
-            </div>
-          </div>
-        </div>
       </div>
     </section>
   );
