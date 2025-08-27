@@ -98,13 +98,13 @@ const Footer = () => {
                     <span className="text-xs">Budagreen Global</span>
                   </a>
                   <a 
-                    href="https://instagram.com/budagreengloba" 
+                    href="https://instagram.com/budagreenglobal" 
                     target="_blank" 
                     rel="noopener noreferrer"
                     className="flex items-center space-x-1 text-primary-foreground/80 hover:text-primary-foreground transition-colors"
                   >
                     <Instagram size={16} />
-                    <span className="text-xs">@budagreengloba</span>
+                    <span className="text-xs">@budagreenglobal</span>
                   </a>
                 </div>
               </div>
