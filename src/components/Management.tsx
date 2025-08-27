@@ -27,6 +27,7 @@ const Management = () => {
     {
       name: "EJIRO EKPEDE",
       position: "Risk and Compliance",
+      image: "/lovable-uploads/4d27f2bc-bd3d-48b1-a77f-b013a39b9a13.png",
       icon: Shield,
       description: "Ensuring regulatory compliance and risk management across all operations."
     },
