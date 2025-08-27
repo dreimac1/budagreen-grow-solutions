@@ -88,6 +88,7 @@ const Management = () => {
                           width="144"
                           height="144"
                           loading="lazy"
+                          sizes="144px"
                         />
                       </div>
                       <div className="absolute -top-2 -right-2 w-8 h-8 bg-gradient-to-br from-accent to-primary rounded-full flex items-center justify-center animate-pulse">

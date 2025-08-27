@@ -29,6 +29,10 @@ const Testimonials = () => {
                 src={image} 
                 alt={`Customer testimonial ${index + 1}`}
                 className="w-full h-auto rounded-xl shadow-lg hover:shadow-xl transition-shadow duration-300"
+                width="432"
+                height="432"
+                loading="lazy"
+                sizes="(max-width: 768px) 100vw, 432px"
               />
             </div>
           ))}

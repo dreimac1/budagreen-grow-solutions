@@ -33,6 +33,7 @@ const Hero = () => {
                 className="h-28 w-auto md:h-36 drop-shadow-2xl hover-lift animate-float"
                 width="144"
                 height="144"
+                sizes="(max-width: 768px) 112px, 144px"
               />
               <div className="absolute -top-2 -right-2 animate-pulse">
                 <Sparkles className="w-8 h-8 text-accent" />
