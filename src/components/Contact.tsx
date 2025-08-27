@@ -15,8 +15,8 @@ const Contact = () => {
     {
       icon: Phone,
       title: "Call Us",
-      details: "070 3960 5097",
-      subDetails: "090 2549 0266"
+      details: "09138897143",
+      subDetails: "09135753274"
     },
     {
       icon: MapPin,
