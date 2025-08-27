@@ -31,6 +31,9 @@ const Footer = () => {
                 src="/lovable-uploads/5c9afde7-30f5-42ad-910a-ff96b0e1d331.png" 
                 alt="Budagreen Global Logo" 
                 className="h-8 w-auto brightness-0 invert"
+                width="32"
+                height="32"
+                loading="lazy"
               />
               <h3 className="text-xl font-bold">Budagreen Global</h3>
             </div>

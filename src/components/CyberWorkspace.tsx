@@ -56,6 +56,9 @@ const CyberWorkspace = () => {
               src="/lovable-uploads/ebd99633-08e7-47da-9cd9-e957f182fce7.png" 
               alt="Budagreen Cyber Workspace - Modern office chairs and workstations"
               className="w-full h-64 md:h-80 object-cover rounded-xl shadow-elegant transform transition-all duration-500 group-hover:scale-105 group-hover:shadow-glow"
+              width="800"
+              height="320"
+              loading="lazy"
             />
             <div className="absolute inset-0 bg-gradient-to-t from-primary/20 via-transparent to-transparent rounded-xl opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
           </div>

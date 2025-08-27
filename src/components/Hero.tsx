@@ -31,6 +31,8 @@ const Hero = () => {
                 src="/lovable-uploads/5c9afde7-30f5-42ad-910a-ff96b0e1d331.png" 
                 alt="Budagreen Global Logo" 
                 className="h-28 w-auto md:h-36 drop-shadow-2xl hover-lift animate-float"
+                width="144"
+                height="144"
               />
               <div className="absolute -top-2 -right-2 animate-pulse">
                 <Sparkles className="w-8 h-8 text-accent" />

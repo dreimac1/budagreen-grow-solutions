@@ -35,6 +35,8 @@ const Header = () => {
                 src="/lovable-uploads/5c9afde7-30f5-42ad-910a-ff96b0e1d331.png" 
                 alt="Budagreen Global Logo" 
                 className="h-12 w-auto hover-lift animate-float"
+                width="48"
+                height="48"
               />
               <div className="absolute -top-1 -right-1">
                 <Sparkles className="w-4 h-4 text-accent animate-pulse" />

@@ -85,6 +85,9 @@ const Management = () => {
                           src={member.image} 
                           alt={member.name}
                           className="w-full h-full object-cover"
+                          width="144"
+                          height="144"
+                          loading="lazy"
                         />
                       </div>
                       <div className="absolute -top-2 -right-2 w-8 h-8 bg-gradient-to-br from-accent to-primary rounded-full flex items-center justify-center animate-pulse">
