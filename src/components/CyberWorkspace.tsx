@@ -50,12 +50,16 @@ const CyberWorkspace = () => {
         </div>
 
         {/* Workspace Image */}
-        <div className="mb-16">
-          <img 
-            src="/lovable-uploads/ebd99633-08e7-47da-9cd9-e957f182fce7.png" 
-            alt="Budagreen Cyber Workspace - Modern office chairs and workstations"
-            className="w-full h-64 md:h-80 object-cover rounded-lg shadow-elegant"
-          />
+        <div className="mb-16 relative group">
+          <div className="relative overflow-hidden rounded-2xl bg-gradient-to-br from-primary/10 to-accent/10 p-2">
+            <img 
+              src="/lovable-uploads/ebd99633-08e7-47da-9cd9-e957f182fce7.png" 
+              alt="Budagreen Cyber Workspace - Modern office chairs and workstations"
+              className="w-full h-64 md:h-80 object-cover rounded-xl shadow-elegant transform transition-all duration-500 group-hover:scale-105 group-hover:shadow-glow"
+            />
+            <div className="absolute inset-0 bg-gradient-to-t from-primary/20 via-transparent to-transparent rounded-xl opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+          </div>
+          <div className="absolute -inset-1 bg-gradient-to-r from-primary via-accent to-primary rounded-2xl opacity-20 blur-sm group-hover:opacity-40 transition-opacity duration-300 -z-10"></div>
         </div>
 
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
