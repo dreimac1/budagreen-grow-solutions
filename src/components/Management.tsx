@@ -33,6 +33,7 @@ const Management = () => {
     {
       name: "NWOKOCHA GODSON",
       position: "General Manager",
+      image: "/lovable-uploads/02b618e5-7cf9-4139-9706-886f6d08fb9d.png",
       icon: TrendingUp,
       description: "Overall operations management and business process optimization."
     },
