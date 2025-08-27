@@ -39,6 +39,7 @@ const Management = () => {
     {
       name: "CHRISTABEL WARAD KWALBE",
       position: "Social Media Manager",
+      image: "/lovable-uploads/eae16f5f-cd2f-41cd-9948-cbde37ab47d1.png",
       icon: Share2,
       description: "Digital marketing and social media strategy implementation."
     }
