@@ -13,6 +13,7 @@ const Management = () => {
     {
       name: "NDAROT BUJI SAMAILA",
       position: "COO/Acting HR",
+      image: "/lovable-uploads/5abc9a69-8507-4482-85b2-4020c2b01aa9.png",
       icon: Users,
       description: "Operational excellence and human resources management specialist."
     },
