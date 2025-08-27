@@ -35,7 +35,7 @@ const Management = () => {
       description: "Overall operations management and business process optimization."
     },
     {
-      name: "CHRISTABEL WARAD KWAIBE",
+      name: "CHRISTABEL WARAD KWALBE",
       position: "Social Media Manager",
       icon: Share2,
       description: "Digital marketing and social media strategy implementation."

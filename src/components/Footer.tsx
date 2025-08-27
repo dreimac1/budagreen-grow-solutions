@@ -86,10 +86,6 @@ const Footer = () => {
                 <p>Starcade shopping mall N0 4 2nd Floor, Kachia Road Sabo ,Kaduna</p>
               </div>
               <div>
-                <p className="text-primary-foreground/80">Social Media Manager:</p>
-                <p>CHRISTABEL WARAD KWALBE</p>
-              </div>
-              <div>
                 <p className="text-primary-foreground/80 mb-2">Follow Us:</p>
                 <div className="flex space-x-3">
                   <a 
