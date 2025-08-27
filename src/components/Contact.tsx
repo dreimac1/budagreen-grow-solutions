@@ -21,8 +21,8 @@ const Contact = () => {
     {
       icon: MapPin,
       title: "Visit Us",
-      details: "Starcade Shopping Mall No 4, 2nd Floor",
-      subDetails: "Kachina Road, Sabo, Kaduna"
+      details: "Starcade shopping mall N0 4 2nd Floor",
+      subDetails: "Kachia Road Sabo ,Kaduna"
     },
     {
       icon: Clock,
