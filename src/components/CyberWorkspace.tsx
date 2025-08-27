@@ -1,6 +1,7 @@
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { Zap, Wifi, Shield, Clock, Coffee, Car } from "lucide-react";
+import blackCoupleServices from "@/assets/black-couple-services.jpg";
 
 const CyberWorkspace = () => {
   const features = [
@@ -63,6 +64,40 @@ const CyberWorkspace = () => {
             <div className="absolute inset-0 bg-gradient-to-t from-primary/20 via-transparent to-transparent rounded-xl opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
           </div>
           <div className="absolute -inset-1 bg-gradient-to-r from-primary via-accent to-primary rounded-2xl opacity-20 blur-sm group-hover:opacity-40 transition-opacity duration-300 -z-10"></div>
+        </div>
+
+        {/* Success Stories Section */}
+        <div className="mb-16">
+          <div className="text-center mb-12">
+            <h3 className="text-2xl md:text-3xl font-bold mb-4 text-foreground">
+              Our Clients Love Our Services
+            </h3>
+            <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
+              See how professionals like you are thriving in our productive environment
+            </p>
+          </div>
+          
+          <div className="relative group">
+            <div className="relative overflow-hidden rounded-2xl bg-gradient-to-br from-primary/10 to-accent/10 p-2">
+              <img 
+                src={blackCoupleServices}
+                alt="Professional black couple working together in Budagreen cyber workspace, collaborating on laptops"
+                className="w-full h-80 md:h-96 object-cover rounded-xl shadow-elegant transform transition-all duration-500 group-hover:scale-105 group-hover:shadow-glow"
+                width="800"
+                height="512"
+                loading="lazy"
+                sizes="(max-width: 768px) 100vw, 800px"
+              />
+              <div className="absolute inset-0 bg-gradient-to-t from-primary/20 via-transparent to-transparent rounded-xl opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+              <div className="absolute bottom-6 left-6 right-6 text-white">
+                <div className="bg-black/50 backdrop-blur-sm rounded-lg p-4">
+                  <h4 className="text-lg font-semibold mb-2">Professional Collaboration</h4>
+                  <p className="text-sm opacity-90">Experience seamless teamwork in our modern workspace environment</p>
+                </div>
+              </div>
+            </div>
+            <div className="absolute -inset-1 bg-gradient-to-r from-primary via-accent to-primary rounded-2xl opacity-20 blur-sm group-hover:opacity-40 transition-opacity duration-300 -z-10"></div>
+          </div>
         </div>
 
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
