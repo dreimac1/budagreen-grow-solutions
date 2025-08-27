@@ -74,7 +74,8 @@ const Footer = () => {
             <div className="space-y-3 text-sm">
               <div>
                 <p className="text-primary-foreground/80">Email:</p>
-                <p>info@budagreen.com</p>
+                <p>info@budagreenglobal.com</p>
+                <p>support@budagreenglobal.com</p>
               </div>
               <div>
                 <p className="text-primary-foreground/80">Phone:</p>
@@ -82,7 +83,11 @@ const Footer = () => {
               </div>
               <div>
                 <p className="text-primary-foreground/80">Location:</p>
-                <p>Starcade Shopping Mall No 4, 2nd Floor, Kachina Road, Sabo, Kaduna</p>
+                <p>Starcade shopping mall N0 4 2nd Floor, Kachia Road Sabo ,Kaduna</p>
+              </div>
+              <div>
+                <p className="text-primary-foreground/80">Social Media Manager:</p>
+                <p>CHRISTABEL WARAD KWALBE</p>
               </div>
               <div>
                 <p className="text-primary-foreground/80 mb-2">Follow Us:</p>
