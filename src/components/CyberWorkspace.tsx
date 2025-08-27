@@ -49,6 +49,15 @@ const CyberWorkspace = () => {
           </p>
         </div>
 
+        {/* Workspace Image */}
+        <div className="mb-16">
+          <img 
+            src="/lovable-uploads/ebd99633-08e7-47da-9cd9-e957f182fce7.png" 
+            alt="Budagreen Cyber Workspace - Modern office chairs and workstations"
+            className="w-full h-64 md:h-80 object-cover rounded-lg shadow-elegant"
+          />
+        </div>
+
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
           {/* Features Grid */}
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
