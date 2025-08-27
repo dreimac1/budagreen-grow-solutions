@@ -1,36 +1,9 @@
-import { Card, CardContent } from "@/components/ui/card";
-import { Star } from "lucide-react";
-
 const Testimonials = () => {
-  const testimonials = [
-    {
-      name: "Mercy Musa",
-      location: "Nigeria",
-      role: "Clothes/Charcoal Vendor",
-      content: "I needed cash to buy more goods, which Budagreen helped me with. The process was easy and fast. All I can say is glory!",
-      rating: 5
-    },
-    {
-      name: "Ifeoma Blessing Ezeagu",
-      location: "Nigeria",
-      role: "Bread Distributor", 
-      content: "I needed money to fund my business. Budagreen helped me very well. I got the loan on time. I will recommend Budagreen to anyone.",
-      rating: 5
-    },
-    {
-      name: "Ani Cynthia Uchenwa",
-      location: "Nigeria",
-      role: "Hair dresser/Drinks Vendor",
-      content: "It was a good experience.",
-      rating: 5
-    },
-    {
-      name: "Anna Ishaku", 
-      location: "Nigeria",
-      role: "Grain Vendor",
-      content: "I was faced with lack of money, and needed money to add to my business. Budagreen solved my problem 100%. The process wasn't stressful and my business is growing.",
-      rating: 5
-    }
+  const testimonialImages = [
+    "/lovable-uploads/f6eebfc8-0e0c-455c-8388-ab3356e4fa42.png",
+    "/lovable-uploads/43157f90-9c80-463a-a7dd-8b1253bfcb75.png", 
+    "/lovable-uploads/3cc149a2-f2cc-48cb-9090-697b5296ed65.png",
+    "/lovable-uploads/bcb41f6b-3201-4056-a3f0-46c24ff1de61.png"
   ];
 
   return (
@@ -45,37 +18,19 @@ const Testimonials = () => {
           </p>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-          {testimonials.map((testimonial, index) => (
-            <Card 
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-4xl mx-auto">
+          {testimonialImages.map((image, index) => (
+            <div 
               key={index} 
-              className="glass-effect hover-lift transition-all duration-300 border-primary/20 hover:border-primary/30 animate-fade-in" 
+              className="animate-fade-in hover-lift transition-all duration-300" 
               style={{ animationDelay: `${index * 0.1}s` }}
             >
-              <CardContent className="p-6">
-                <div className="flex mb-4">
-                  {[...Array(testimonial.rating)].map((_, i) => (
-                    <Star key={i} className="w-5 h-5 fill-yellow-400 text-yellow-400" />
-                  ))}
-                </div>
-                
-                <p className="text-muted-foreground mb-6 italic leading-relaxed">
-                  "{testimonial.content}"
-                </p>
-                
-                <div className="border-t border-primary/20 pt-4">
-                  <div className="font-semibold text-foreground text-lg">
-                    {testimonial.name}
-                  </div>
-                  <div className="text-primary font-medium">
-                    {testimonial.role}
-                  </div>
-                  <div className="text-sm text-muted-foreground">
-                    {testimonial.location}
-                  </div>
-                </div>
-              </CardContent>
-            </Card>
+              <img 
+                src={image} 
+                alt={`Customer testimonial ${index + 1}`}
+                className="w-full h-auto rounded-xl shadow-lg hover:shadow-xl transition-shadow duration-300"
+              />
+            </div>
           ))}
         </div>
 
