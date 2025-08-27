@@ -20,6 +20,7 @@ const Management = () => {
     {
       name: "NASIRU RILWAN",
       position: "Business Manager",
+      image: "/lovable-uploads/b3aecdc9-9e8b-4e39-8ffb-17dff710af2c.png",
       icon: Target,
       description: "Strategic business development and client relationship management."
     },
